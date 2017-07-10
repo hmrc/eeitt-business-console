@@ -1,3 +1,3 @@
 # microservice specific routes
 
-GET        /hello-world             uk.gov.hmrc.eeittbusinessconsole.controllers.HelloWorld.helloWorld
+GET        /index             uk.gov.hmrc.eeittbusinessconsole.controllers.ViewController.loadPage
