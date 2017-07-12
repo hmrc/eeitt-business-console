@@ -1,3 +1,6 @@
 # microservice specific routes
 
 GET        /index             uk.gov.hmrc.eeittbusinessconsole.controllers.ViewController.loadPage
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
