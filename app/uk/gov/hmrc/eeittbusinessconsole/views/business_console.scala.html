@@ -17,51 +17,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="@routes.Assets.versioned("stylesheets/main.css")" rel="stylesheet" />
     <meta charset="UTF-8">
     <title>Business Readiness Console</title>
+
+    <link href="@routes.Assets.versioned("stylesheets/main.css")" rel="stylesheet" />
+    <link href="@routes.Assets.versioned("stylesheets/normalize.css")" rel="stylesheet" />
+
+
 </head>
   <body>
 
-  <h2 style="margin-top: 50px; font-family: Arial; margin-left: 50px;">Biofuels and other fuel substitutes</h2>
+    <header class="site-header">
+      <h2 class="site-header__highlight">Business Readiness Console</h2>
+    </header>
 
-  <div id="row-one">
-    <div style="float: left; border: 4px solid #21B6A8; border-radius: 5px; padding-top: 125px; margin-bottom: 50px; width: 550px; height: 200px; color: #21B6A8; margin-right: 20px; margin-left: 50px;">
-      <b style="font-family: Arial; font-size: 40px; margin-left: 210px;">Demo</b>
-      <p style="font-size: 20px; margin-left: 190px;">Status: Public Beta</p>
+    <h2 class="form-header">Biofuels and other fuel substitutes (CE930)</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3 class="card__header"><a href="#">Demo</a></h3>
+          <ul class="card__status-list">
+            <li class="card__status-list__item"><strong>Status:</strong> Public Beta</li>
+          </ul>
+      </div>
+
+      <div class="card card--highlight">
+        <h3><a href="">Offline comms</a></h3>
+          <ul class="card__status-list">
+            <li class="card__status-list__item"><strong>Comms 1 status:</strong> Sent to customer</li>
+            <li class="card__status-list__item"><strong>Comms 2 status:</strong> Sent to customer</li>
+          </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="card__header"><a href="">Service design map</a></h3>
+          <ul class="card__status-list">
+            <li class="card__status-list__item"><strong>Status:</strong> v1.2</li>
+          </ul>
+      </div>
     </div>
 
-    <div style="float: left; background-color: #21B6A8; border-radius: 5px; padding-top: 125px; margin-bottom: 50px; width: 550px; height: 207px; color: #21B6A8; margin-right: 20px;">
-      <b style="font-family: Arial; font-size: 40px; margin-left: 150px; color: #fff;">Offline comms</b>
-      <p style="font-size: 20px; margin-left: 145px; color: #fff"><b>Comms 1 status:</b> Sent to customer</p>
-      <p style="font-size: 20px; margin-left: 145px; color: #fff"><b>Comms 2 status:</b> Sent to customer</p>
-    </div>
+    <h2 class="form-header">Gas as a road fuel (HO930)</h2>
 
-    <div style="float: left; border: 4px solid #21B6A8; border-radius: 5px; padding-top: 125px; margin-bottom: 50px; width: 550px; height: 200px; color: #21B6A8; margin-right: 50px;">
-      <b style="font-family: Arial; font-size: 40px; margin-left: 100px;">Service design map</b>
-      <p style="font-size: 20px; margin-left: 220px;">Status: v1.2</p>
-    </div>
-  </div>
+    <div class="grid">
+      <div class="card">
+        <h3 class="card__header"><a href="#">Demo</a></h3>
+          <ul class="card__status-list">
+            <li class="card__status-list__item"><strong>Status:</strong> Alpha</li>
+          </ul>
+      </div>
 
-  <h2 style="margin-top: 100px; font-family: Arial; margin-left: 50px;">Gas and other fuel substitutes</h2>
+      <div class="card card--highlight">
+        <h3><a href="">Offline comms</a></h3>
+          <ul class="card__status-list">
+            <li class="card__status-list__item"><strong>Comms 1 status:</strong> Sent to customer</li>
+            <li class="card__status-list__item"><strong>Comms 2 status:</strong> In review</li>
+          </ul>
+      </div>
 
-  <div id="row-two">
-    <div style="float: left; border: 4px solid #21B6A8; border-radius: 5px; padding-top: 125px; width: 550px; height: 200px; color: #21B6A8; margin-right: 20px; margin-left: 50px;">
-      <b style="font-family: Arial; font-size: 40px; margin-left: 210px;">Demo</b>
-      <p style="font-size: 20px; margin-left: 210px;">Status: Alpha</p>
+      <div class="card">
+        <h3 class="card__header"><a href="">Service design map</a></h3>
+          <ul class="card__status-list">
+            <li class="card__status-list__item"><strong>Status:</strong> v0.4</li>
+          </ul>
+      </div>
     </div>
-
-    <div style="float: left; background-color: #21B6A8; border-radius: 5px; padding-top: 125px; width: 550px; height: 207px; color: #21B6A8; margin-right: 20px;">
-      <b style="font-family: Arial; font-size: 40px; margin-left: 150px; color: #fff;">Offline comms</b>
-      <p style="font-size: 20px; margin-left: 145px; color: #fff"><b>Comms 1 status:</b> Sent to customer</p>
-      <p style="font-size: 20px; margin-left: 145px; color: #fff"><b>Comms 2 status:</b> In review</p>
-    </div>
-
-    <div style="float: left; border: 4px solid #21B6A8; border-radius: 5px; padding-top: 125px; width: 550px; height: 200px; color: #21B6A8; margin-right: 40px;">
-      <b style="font-family: Arial; font-size: 40px; margin-left: 100px;">Service design map</b>
-      <p style="font-size: 20px; margin-left: 220px;">Status: v0.4</p>
-    </div>
-  </div>
 
 
   </body>
