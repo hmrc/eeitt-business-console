@@ -13,12 +13,12 @@ body {
   padding: 1em;
 }
 
-.brc-grid {
+.grid {
   display: flex;
   padding: 1em;
 }
 
-.item-status {
+.card {
   flex: 1 0 0px;
   text-align: center;
   flex-grow: 1;
@@ -28,19 +28,19 @@ body {
               0 2px 1px -1px rgba(0,0,0,.12);
 }
 
-.brc-grid__header{
+.card__header{
   color: rgba(33,182,168,.6);
 }
 
-.brc-grid__list{
+.card__status-list{
   padding: 0;
 }
 
-.brc-grid__list-item{
+.card__status-list__item{
   list-style: none;
 }
 
-.item-status__highlight {
+.card--highlight {
   flex: 1 0 0px;
   text-align: center;
   background: rgba(33,182,168,.05);
