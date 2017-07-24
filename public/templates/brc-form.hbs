@@ -1,0 +1,28 @@
+<h2 class="form-header">{{title}}</h2>
+
+<div class="grid">
+  <div class="card">
+    <h3 class="card__header"><a href="{{link}}">Demo</a></h3>
+      <ul class="card__status-list">
+        <li class="card__status-list__item"><strong>Status:</strong> {{status}}</li>
+      </ul>
+  </div>
+
+  <div class="card card--highlight">
+    <h3><a href="">Offline comms</a></h3>
+      <ul class="card__status-list">
+        {{#each communications}}
+        <li class="card__status-list__item"><strong>{{title}}:</strong> {{status}}</li>
+        {{/each}}
+      </ul>
+  </div>
+
+  <div class="card">
+    <h3 class="card__header">Documents</h3>
+      <ul class="card__status-list">
+        {{#each documents}}
+        <li class="card__status-list__item"><strong>{{title}}:</strong><a href="{{link}}"> {{version}}</a></li>
+        {{/each}}
+      </ul>
+  </div>
+</div>
