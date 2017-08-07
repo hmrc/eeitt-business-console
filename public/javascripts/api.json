@@ -46,7 +46,7 @@
     },
     {
       "title": "Aggregates Levy Return (AL100)",
-      "link": "",
+      "link": "https://www-staging.tax.service.gov.uk/auth-login-stub/gg-sign-in?continue=https://www-staging.tax.service.gov.uk/submissions/new-form/AL100",
       "status": "Alpha",
       "documents": [
         {
@@ -68,7 +68,7 @@
     },
     {
       "title": "Air Passenger Duty Return (APD100)",
-      "link": "",
+      "link": "https://www-staging.tax.service.gov.uk/auth-login-stub/gg-sign-in?continue=https://www-staging.tax.service.gov.uk/submissions/new-form/APD2",
       "status": "Alpha",
       "documents": [
         {
@@ -89,8 +89,8 @@
       ]
     },
     {
-      "title": "Lottery Duty Return (****)",
-      "link": "",
+      "title": "Lottery Duty Return (BD600)",
+      "link": "https://www-staging.tax.service.gov.uk/auth-login-stub/gg-sign-in?continue=https://www-staging.tax.service.gov.uk/submissions/new-form/BD600",
       "status": "Alpha",
       "documents": [
         {
@@ -111,8 +111,8 @@
       ]
     },
     {
-      "title": "Gaming Duty Return (****)",
-      "link": "",
+      "title": "Gaming Duty Return (GD95)",
+      "link": "https://www-staging.tax.service.gov.uk/auth-login-stub/gg-sign-in?continue=https://www-staging.tax.service.gov.uk/submissions/new-form/GD95",
       "status": "Alpha",
       "documents": [
         {
@@ -133,8 +133,8 @@
       ]
     },
     {
-      "title": "Gaming Duty Payment on Account (****)",
-      "link": "",
+      "title": "Gaming Duty Payment on Account (GD94)",
+      "link": "https://www-staging.tax.service.gov.uk/auth-login-stub/gg-sign-in?continue=https://www-staging.tax.service.gov.uk/submissions/new-form/GD94",
       "status": "Alpha",
       "documents": [
         {
@@ -156,7 +156,7 @@
     },
     {
       "title": "Insurance Premium Tax Return (IPT100)",
-      "link": "",
+      "link": "https://www-staging.tax.service.gov.uk/auth-login-stub/gg-sign-in?continue=https://www-staging.tax.service.gov.uk/submissions/new-form/IPT100",
       "status": "Alpha",
       "documents": [
         {
@@ -177,8 +177,8 @@
       ]
     },
     {
-      "title": "Bingo Duty Return (****)",
-      "link": "",
+      "title": "Bingo Duty Return (BD510)",
+      "link": "https://www-staging.tax.service.gov.uk/auth-login-stub/gg-sign-in?continue=https://www-staging.tax.service.gov.uk/submissions/new-form/BD510",
       "status": "Alpha",
       "documents": [
         {
@@ -199,8 +199,8 @@
       ]
     },
     {
-      "title": "Landfill Tax Return (****)",
-      "link": "",
+      "title": "Landfill Tax Return (LT100)",
+      "link": "https://www-staging.tax.service.gov.uk/auth-login-stub/gg-sign-in?continue=https://www-staging.tax.service.gov.uk/submissions/new-form/LT100",
       "status": "Alpha",
       "documents": [
         {
